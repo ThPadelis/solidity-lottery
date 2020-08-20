@@ -1,0 +1,25 @@
+{
+  "name": "solidity-lottery",
+  "version": "0.0.1",
+  "description": "A simple lottery smart contract application and mocha tests practice",
+  "main": "compile.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "lottery"
+  ],
+  "author": "Padelis Theodosiou <padelis.theodosiou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "solc": "^0.7.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.0.0-beta.26",
+    "ganache-cli": "^6.0.3",
+    "mocha": "^4.0.1"
+  }
+}
